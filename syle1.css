@@ -1,0 +1,106 @@
+body{
+    background-color: rgb(7, 31, 49);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about{
+   font-style: italic;
+   font-size: 15px;
+   text-align: center;
+
+}
+.profile-img{
+    position: absolute;
+    margin-top: 20px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s ease-out;
+}
+.profile-img:hover{
+   transform: scale(1.1);
+}
+.profile-card{
+    background-color: white;
+    height: 400px;
+    width: 350px;
+    border-radius: 25px;
+}
+.clr{
+    position: relative;
+    display: flex;
+    height: 140px;
+    width: 100%;
+    border-radius: 25px;
+
+}
+.profile-i{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+h2{
+    margin-top: 10px;
+    margin-bottom: 7px;
+}
+.socials .insta {
+    height: 40px;
+    width: 40px;
+    text-decoration: none;
+}
+.socials .twitter{
+    height: 40px;
+    width: 40px;
+}
+.socials .linkedin{
+    height: 40px;
+    width: 40px;
+} 
+.socials .youtube{
+    height: 40px;
+    width: 40px;
+}  
+.socials .git-hub{
+    height: 40px;
+    width: 40px;
+}    
+.socials{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    margin: 0px;
+    transition: transform 0.2s ease-out;
+}
+.insta:hover{
+    transform: scale(1.2);
+}
+.twitter:hover{
+    transform: scale(1.2);
+}
+.linkedin:hover{
+    transform: scale(1.2);
+}
+.youtube:hover{
+    transform: scale(1.2);
+}
+.git-hub:hover{
+    transform: scale(1.2);
+}
+a{
+    text-decoration: none;
+}
+.clr{
+    background-color: rgb(85, 85, 247);
+}
